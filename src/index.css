@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  @apply text-[15px] leading-5 text-[#333];
+}
+
+/* Remove the default outline */
+:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 2px solid black;
+}
